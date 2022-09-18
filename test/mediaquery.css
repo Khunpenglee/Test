@@ -1,0 +1,13 @@
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightslategray;
+    }
+
+    .card2 img {
+        float: top;
+    }
+    .card2-info {
+        text-align: bottom;
+    }
+
+}
