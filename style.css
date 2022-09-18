@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+    color: white;
+    /* Set your font family here */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.banner{
+    
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+    background-image: url("images/banner_2.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.btn {
+    background: grey;
+    border: 5px solid whitesmoke;
+    color: aqua;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+.week_fact h1 {
+    padding-top: 15px;
+    border-bottom: 5px solid white;
+    text-align: center;
+}
+
+.card{
+
+    width: 260px;
+    height: 350px;
+    display: inline-block;
+    border: solid 3px white;
+    margin: 5px;
+    background-color: grey;
+    text-align: center;
+    
+    
+}
+
+
+.master-science h1 {
+    margin-top: 15px;
+    padding-top: 15px;
+    text-align: center;
+    border-bottom: 5px solid white;
+    padding-bottom: 15px;
+}
+
+.card2 {
+    width: 80%;
+    height: 200px;
+
+    margin: 0 auto;
+    border: 5px solid;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: grey;
+}
+
+.card2 img {
+    height:80%;
+    width: 20%;
+    margin-right: 5px;
+    border: 5px solid white;
+    border-radius: 5px;
+
+    float: left;
+    
+}
+
+.card2-info {
+    width: 60%;
+
+    float: right;
+
+    padding: 10px 15px;
+}
+
+.feedback h1{
+    border-bottom: 5px solid white;
+}
+.feedback h1 p{
+    float: left;
+    height: 500px;
+}
+
+.feedback p {
+    margin-top: 15px;
+}
+.feedback form{
+    float: right;
+}
+.label input {
+    float: right;
+}
+.feedback form input {
+    border-radius: 15px;
+}
+.feedback button {
+    float: right;
+}
