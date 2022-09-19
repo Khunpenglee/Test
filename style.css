@@ -9,6 +9,7 @@ body {
     color: white;
     /* Set your font family here */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* height: 2800px; */
     
 }
 .banner{
@@ -105,7 +106,12 @@ body {
     margin-top: 15px;
 }
 .feedback form{
+    margin-right: 450px;
     float: right;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
 }
 .label input {
     float: right;
@@ -113,6 +119,17 @@ body {
 .feedback form input {
     border-radius: 15px;
 }
-.feedback button {
-    float: right;
+
+.message input{
+    height: 100px;
+    width: 300px;
+    
 }
+
+footer {
+    text-align: center;
+    margin-top: 300px;
+    background-color: grey;
+    
+}
+

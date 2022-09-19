@@ -9,5 +9,24 @@
     .card2-info {
         text-align: bottom;
     }
+    header{
+        font-size: 64px;
+        color: black;
+        font-weight: bold;
+    
+        animation: lr 2s linear infinite alternate-reverse;
+        
+        
+    }
+    @keyframes lr {
+        from{
+            margin-left: 0%;
+    
+        }
+        to {
+            margin-left: 80%;
+        }
+    }
+    
 
 }
